@@ -1,0 +1,19 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/itsmechlark/features/postgresql:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"ecmel.vscode-html-css",
+				"george-alisson.html-preview-vscode",
+				"ritwickdey.LiveServer",
+				"cirlorm.mobileview",
+				"ms-vscode.powershell",
+				"ms-vscode-remote.remote-containers"
+			]
+		}
+	}
+}
