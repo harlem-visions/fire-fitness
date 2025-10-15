@@ -102,4 +102,12 @@ nav{
     cursor: pointer;
     font-size: 1rem;
     padding: 0px 20px;
+    transition: background-color 0.2s, transform 0.2s ease;
+}
+.top-container button:hover{
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+.top-container button:active{
+    transform: scale(1);
 }
